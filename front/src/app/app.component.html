@@ -1,0 +1,11 @@
+<div class="container">
+  <form>
+    <div class="form-group mt-2">
+      <label>File:</label>
+      <input class="form-control" type="file" name="file" (change)="onChange($event)" formControlName="file">
+    </div>
+    <div class="form-group mt-2">
+      <button class="btn btn-warning" (click)="onClick()">Enviar</button>
+    </div>
+  </form>
+</div>
